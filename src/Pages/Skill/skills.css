@@ -1,0 +1,53 @@
+.skillsWrapper {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%; 
+  padding: 2rem 0;
+}
+
+.skill-container {
+  width: 200px;
+  border: 1px solid #444;
+  background-color: #666;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skill-container:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: #888;
+}
+
+.skill-name {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  height: 20px;
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  background: #444;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  font-size: 0.8rem;
+}

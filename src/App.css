@@ -1,5 +1,33 @@
+:root {
+  --light-background: #ffffff;
+  --light-text: #000000;
+  
+  --dark-background: linear-gradient(45deg, #444, #888)
+  --dark-text: #ffffff;
+}
+
+.light {
+  background-color: var(--light-background);
+  color: var(--light-text);
+}
+
+.dark {
+  background-color: var(--dark-background);
+  color: var(--dark-text);
+}
+
+.navBar {
+  /* existing styles */
+  background-color: inherit;
+  color: inherit;
+}
+
 .App {
   text-align: center;
+}
+
+body {
+  background: linear-gradient(45deg, #444, #888)
 }
 
 .App-logo {
