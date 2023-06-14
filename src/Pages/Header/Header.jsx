@@ -2,16 +2,16 @@ import React from "react";
 import { Link } from "react-scroll";
 import "./header.css";
 
-const ToggleSwitch = ({ isOn, handleToggle }) => {
-  return (
-    <div
-      onClick={handleToggle}
-      className={`toggle-switch ${isOn ? "night" : ""}`}
-    >
-      <div className="toggle-switch-slider"></div>
-    </div>
-  );
-};
+// const ToggleSwitch = ({ isOn, handleToggle }) => {
+//   return (
+//     <div
+//       onClick={handleToggle}
+//       className={`toggle-switch ${isOn ? "night" : ""}`}
+//     >
+//       <div className="toggle-switch-slider"></div>
+//     </div>
+//   );
+// };
 
 export default function Header({ toggleTheme, isDarkMode }) {
   return (
