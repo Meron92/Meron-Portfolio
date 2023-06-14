@@ -1,8 +1,8 @@
 :root {
   --light-background: #ffffff;
   --light-text: #000000;
-  
-  --dark-background: linear-gradient(45deg, #444, #888)
+
+  --dark-background: linear-gradient(45deg, #444, #888);
   --dark-text: #ffffff;
 }
 
@@ -27,7 +27,7 @@
 }
 
 body {
-  background: linear-gradient(45deg, #444, #888)
+  background: linear-gradient(45deg, #444, #888);
 }
 
 .App-logo {
